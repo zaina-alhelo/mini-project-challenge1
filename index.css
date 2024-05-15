@@ -1,0 +1,82 @@
+
+:root {
+  --blue: hsl(14, 45%, 36%);
+  --white: hsl(332, 51%, 32%);
+  --test: hsl(0, 0%, 100%);
+  --fff: hsl(330, 100%, 98%);
+  --vvv: hsl(30, 54%, 90%);
+  --xxx: hsl(30, 18%, 87%);
+  --aaa: hsl(30, 10%, 34%);
+}
+ul li::marker {
+  color: var(--white);
+}
+.a ul li::marker {
+  color: var(--blue);
+}
+ol li::marker {
+  color: var(--blue);
+}
+body {
+    Font-size: 16px;
+    
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: bisque;
+    
+    
+  }
+  .v {
+    padding: 20px;
+  }
+  .main {
+    background-color: white;
+    color: var(--aaa);
+    width: 720px;
+    border-radius: 20px;
+    
+    
+  }
+  .h {
+    font-family: "Young Serif";
+    color: black;
+  }
+  .h1 {
+    padding: 15px;
+  }
+  img {
+    border-radius: 10px;
+    
+  }
+  .box {
+    background-color: hsl(330, 100%, 98%);
+     padding: 2px;
+    padding-left: 10px;
+  }
+  h4 {
+    color : var(--white);
+    padding-left: 10px;
+
+  }
+  h2 {
+    color: var(--blue);
+    padding: 5px;
+  }
+ul {
+  color: var(--aaa);
+}
+hr {
+  color: var(--aaa);
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-template-rows: repeat(8,auto);
+  padding: 10px;
+  row-gap: 5px;
+  
+}
+.num {
+  color: var(--blue);
+}
